@@ -67,6 +67,6 @@ trait CanBeViewed
 
     public function getViewersCountReadableAttribute()
     {
-        return $this->viewersCount();
+        return $this->viewersCountReadable();
     }
 }
